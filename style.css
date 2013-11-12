@@ -1,0 +1,39 @@
+/*  ==============
+	SUBSCRIBE FORM
+	============== */
+.newsletter {
+	position: fixed;
+	top: 450px;
+	z-index: 2;
+	width: 277px;
+	left: -234px;
+}
+
+.newsletter.active {
+	left: 0px;
+} 
+
+.newsletter input[type="text"] {
+	width: 220px;
+	height: 25px;
+	display: inline-block;	
+}
+
+.mail-icon {
+	background: url(images/mail.png);
+	display: inline-block;
+	width: 43px;
+	height: 36px;
+	float: right;
+	margin-left: -4px;
+}
+
+.newsletter .instructions {
+	background-color: #1882c8;
+	display: inline-block;
+	color: white;
+	width: 229px;
+	padding-left: 5px;
+	border-radius: 0 0 5px;
+	font-weight: bold;
+}
