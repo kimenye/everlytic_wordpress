@@ -18,7 +18,7 @@ Add the following line to your wordpress pages e.g. the footer.php in your theme
 <?php echo nssubform(); ?>
 ```
 
-The Import button should now appear. Click it and upload your file. Press submit.
+You should now have a form being posted to everltic via AJAX without any CORS errors.
 
 ## Contributing
 
