@@ -33,7 +33,7 @@ function nssubform($atts=array()) {
 
 	$return = '<div class="newsletter">';
 	$return .= '<form class="subscribe-form" method="POST" action="'.get_option('ns_form_submit_url').'">';
-	$return .= '<input type="text" name="contact_email" placeholder="example@domain.com" />';
+	$return .= '<input type="text" name="contact_email" class="subscribe_email" placeholder="example@domain.com" />';
 	$return .= '<input type="hidden" name="op" value="subscribe" id="op" />';
 	$return .= '<input type="hidden" name="form_hash" value="'.get_option('ns_form_hash').'" id="form_hash" />';
 	$return .= '<input type="hidden" name="list_id[]" value="'.get_option('ns_form_list_id').'" id="list_id[]" />';
