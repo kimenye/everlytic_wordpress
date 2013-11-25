@@ -1,6 +1,6 @@
 # NewsLetter Subscribe
 
-Creates a styled newsletter form for Everlytic (http://everlytic.com). The form is posted via AJAX.
+Creates a styled newsletter form for Everlytic (http://everlytic.com).
 
 ## Installation
 
@@ -18,7 +18,9 @@ Add the following line to your wordpress pages e.g. the footer.php in your theme
 <?php echo nssubform(); ?>
 ```
 
-You should now have a form being posted to everltic via AJAX without any CORS errors.
+You should now have a form being posted to everltic.
+
+Use the config settings to include your everlytic parameters such as the form to post to, form id e.t.c
 
 ## Contributing
 
